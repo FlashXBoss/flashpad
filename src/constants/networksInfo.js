@@ -79,24 +79,42 @@ export const networks = {
       symbol: "WBNB"
     }
   },
-  7001: {
-    name: "Zetachain Testnet",
-    rpc: "https://rpc.ankr.com/zetachain_evm_athens_testnet",
-    chainId: 7001,
-    explorer: "https://zetachain-athens-3.blockscout.com/",
-    color: "#2A8958",
-    multicall: "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
-    storage: "0xd152CD6F9cf76921759d3f51f743651e549f6925",
-    fromBlock: 2221664,
-    baseCurrency: {
-      decimals: 18,
-      name: "ZETA",
-      symbol: "ZETA"
+  "534352": {
+    "name": "Scroll.io Mainnet",
+    "rpc": "https://rpc.scroll.io/",
+    "chainId": 534352,
+    "explorer": "http://blockscout.scroll.io",
+    "color": "#CC9B00",
+    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "ETH",
+      "symbol": "ETH"
     },
-    wrappedToken: {
-      address: "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
-      name: "Wrapped Zeta",
-      symbol: "WZETA"
+    "wrappedToken": {
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Wrapped ETH",
+      "symbol": "WETH"
+    }
+  },
+  "534351": {
+    "name": "Scroll.io Testnet",
+    "rpc": "https://sepolia-rpc.scroll.io/",
+    "chainId": 534351	,
+    "explorer": "https://sepolia-blockscout.scroll.io",
+    "color": "#CC9B00",
+    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "storage": "0x2f87D23cd8d788bC9a32E540cdd8253F9b1F54CF",
+    "exstorage": "0xd4a711333C41cC01B005dBE5389BcFb99D4f5d64",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "ETH",
+      "symbol": "ETH"
+    },
+    "wrappedToken": {
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Wrapped ETH",
+      "symbol": "WETH"
     }
   },
 }
