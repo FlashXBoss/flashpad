@@ -117,6 +117,24 @@ export const networks = {
       "symbol": "WETH"
     }
   },
+   "7001": {
+    "name": "Zetachain Testnet",
+    "rpc": "https://rpc.ankr.com/zetachain_evm_athens_testnet",
+    "chainId": 7001,
+    "explorer": "https://zetachain-athens-3.blockscout.com/",
+    "color": "#086D51",
+    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "baseCurrency": {
+      "decimals": 18,
+      "name": "AZETA",
+      "symbol": "AZETA"
+    },
+    "wrappedToken": {
+      "address": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+      "name": "Wrapped Zeta",
+      "symbol": "WZETA"
+    }
+  },
 }
 
 export const chainRouter = {
