@@ -123,7 +123,7 @@ export const networks = {
     "chainId": 7001,
     "explorer": "https://zetachain-athens-3.blockscout.com/",
     "color": "#086D51",
-    "multicall": "0x87a6417F03E106A05698F18829bB3a40CBC54f61",
+    "multicall": "",
     "baseCurrency": {
       "decimals": 18,
       "name": "AZETA",
